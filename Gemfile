@@ -12,14 +12,16 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'simple_form'
-gem 'rspec-rails'
 
-group :production, :development do
+group :development, :test do
+  gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'capybara'
   gem 'quiet_assets'
   gem 'shoulda'
   gem 'valid_attribute'
 end
+
 group :development do
   gem 'launchy'
 end
