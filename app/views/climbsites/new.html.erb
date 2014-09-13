@@ -1,0 +1,11 @@
+<h1>Add a new climbing site!</h1>
+
+<%= simple_form_for @climbsite do |f| %>
+  <%= f.input :name %>
+  <%= f.input :location %>
+  <%= f.input :grades %>
+  <%= f.input :description %>
+  <%= f.input :gym, as: :boolean, boolean_style: :inline %>
+
+  <%= f.button :submit %>
+<%end%>
