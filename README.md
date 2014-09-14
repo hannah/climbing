@@ -13,4 +13,5 @@ TO DO:
 * gym importation with yelp api
 * ability to add new climbing sites
 * board for wanted climbing partners on each site
+* search function
 
