@@ -15,3 +15,5 @@ TO DO:
 * board for wanted climbing partners on each site
 * search function
 
+[Trello Board](https://trello.com/b/MQD1DWA1/climbing-sites)
+
