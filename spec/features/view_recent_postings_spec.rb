@@ -1,4 +1,4 @@
-require 'rails_helper'
+require_relative '../rails_helper'
 
 feature 'creating climbing location' do
   scenario 'I can create location' do
