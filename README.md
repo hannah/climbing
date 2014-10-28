@@ -14,6 +14,7 @@ TO DO:
 * ability to add new climbing sites
 * board for wanted climbing partners on each site
 * search function
+* rating system
 
 [Trello Board](https://trello.com/b/MQD1DWA1/climbing-sites)
 
