@@ -16,6 +16,10 @@ class ClimbsitesController < ApplicationController
     @climbsite = Climbsite.find(params[:id])
   end
 
+  def index
+    @climbsite = Climbsite.all
+  end
+
   private
 
 
