@@ -1,2 +1,7 @@
 <h1>ClimbingBuddies</h1>
 <h2>Find your future climbing friends</h2>
+
+<%= @climbsite.each do |site| %>
+  <%= site.name %>
+  <%= site.location %>
+<% end %>
