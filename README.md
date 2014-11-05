@@ -6,6 +6,7 @@ This app is designed to allow people to find climbing partners at nearby gyms an
 
 TO DO:
 
+* photo representation of each climbing site
 * omniauth authentication
  * Twitter
  * Facebook
