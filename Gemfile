@@ -14,7 +14,7 @@ gem 'bootstrap'
 gem 'simple_form'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec'
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'quiet_assets'
