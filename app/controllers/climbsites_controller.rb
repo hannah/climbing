@@ -20,6 +20,10 @@ class ClimbsitesController < ApplicationController
     @climbsite = Climbsite.all
   end
 
+  def edit
+    @climbsite = Climbsite.edit(params[:id])
+  end
+
   private
 
 
