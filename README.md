@@ -15,6 +15,7 @@ TO DO:
  * devise login
 * gym importation with yelp api
 * board for wanted climbing partners on each site
+* event function/ integration with meetup
 * search function
 * rating system
 
