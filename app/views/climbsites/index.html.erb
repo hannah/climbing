@@ -17,7 +17,7 @@
 <% @climbsite.each do |site| %>
   <div class='col-lg-3'>
     <p><%= link_to site.name, climbsite_path(site)%></p>
-    <p><%= site.location %></p>
+    <p>Location: <%= site.location %></p>
   </div>
 <% end %>
 
